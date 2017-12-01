@@ -43,7 +43,7 @@ $(document).ready(function(){ //wait until page is fully loaded
 		$("#circle" + input_circle).css({
 			"background-color": "brown"
 		});
-	}
+	};
 
 	//initialy setting the first circle to be brown, before the slideshow starts manipulating them
 	setCircle(1);
