@@ -1,12 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+*{
+  font-family: Montserrat, sans-serif;
+}
 body{
   margin: 0;
 }
 
-
 #slideshow {
   margin-bottom: 5px;
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 20%;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -47,19 +50,34 @@ body{
     text-align: center;
 }
 
+.background{
+  background-color: #262626;
+}
 .grid-container {
   display: grid;
-  grid-column-gap: 50px;
+  grid-column-gap: 10%;
   grid-template-columns: auto auto;
-  padding: 10px;
+  grid-template-rows: 5% 5%;
   bottom: 0;
+  padding: 10px;
 }
 
 .grid-item{
     text-align: center;
+    padding-bottom: 5%;
+    font-family: Montserrat, sans-serif;
+    color: white;
 }
 
 .tick{
   vertical-align: middle;
 }
-
+h1{
+  color: white;
+}
+.bottom{
+  background: #ffffff
+}
+span{
+  font-size: 100%
+}
