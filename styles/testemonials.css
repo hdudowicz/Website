@@ -1,11 +1,7 @@
-body{
-	background-color: #CFCFCF;
-}
-
 #description{
 	padding-top: 10px;
 }
-img{
+#jobimg{
 	float: left;
 }
 p{
