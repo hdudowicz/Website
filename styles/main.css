@@ -19,6 +19,11 @@ body{
     margin: auto;
   }
 }
+
+.banner{
+  margin:0;
+}
+
 .circle {
   margin-right: 15px;
   display: inline-block;
@@ -96,9 +101,7 @@ h2{
 h1{
   color: #F96;
 }
-.bottom{
-  background: #ffffff
-}
+
 span{
   font-size: 100%
 }
