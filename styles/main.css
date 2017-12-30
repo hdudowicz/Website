@@ -49,6 +49,7 @@ body{
 }
 .demoImgs > img{
   align-self: center;
+  border: 4px solid #555;
 }
 
 .title{
@@ -109,4 +110,24 @@ span{
 .description{
   text-shadow: 2px 2px #000000;
 }
+.thumbnails,.preview{
+  box-sizing: border-box;
+}
+.thumbnails img {
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+  
+	}
 
+	.thumbnails img:hover {
+		border: 4px solid #00ccff;
+		cursor:pointer;
+	}
+
+	.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 100%;
+	}
